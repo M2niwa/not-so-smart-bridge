@@ -1,0 +1,4232 @@
+{
+  "dataset_path": "ai_model\\sample_dataset",
+  "evaluation_date": "2025-09-03T00:59:10.643525",
+  "summary": {
+    "total_images": 540,
+    "categories_found": 9,
+    "target_categories_covered": 9,
+    "overall_score": 50.0
+  },
+  "statistics": {
+    "total_images": 540,
+    "categories": {
+      "beef": {
+        "train": 20,
+        "val": 20,
+        "test": 20
+      },
+      "cheese": {
+        "train": 20,
+        "val": 20,
+        "test": 20
+      },
+      "chicken": {
+        "train": 20,
+        "val": 20,
+        "test": 20
+      },
+      "eggs": {
+        "train": 20,
+        "val": 20,
+        "test": 20
+      },
+      "fish": {
+        "train": 20,
+        "val": 20,
+        "test": 20
+      },
+      "fruits": {
+        "train": 20,
+        "val": 20,
+        "test": 20
+      },
+      "milk": {
+        "train": 20,
+        "val": 20,
+        "test": 20
+      },
+      "vegetables": {
+        "train": 20,
+        "val": 20,
+        "test": 20
+      },
+      "yogurt": {
+        "train": 20,
+        "val": 20,
+        "test": 20
+      }
+    },
+    "datasets": {
+      "train": 180,
+      "val": 180,
+      "test": 180
+    },
+    "file_formats": {
+      ".jpg": 540
+    },
+    "avg_file_size": 0.009049454441776981
+  },
+  "quality_analysis": {
+    "resolution_issues": [],
+    "blur_issues": [
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0000.jpg",
+        "blur_score": 54.11855453712054
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0001.jpg",
+        "blur_score": 62.243562325394585
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0002.jpg",
+        "blur_score": 52.55656348541845
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0003.jpg",
+        "blur_score": 42.79003265608057
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0004.jpg",
+        "blur_score": 54.77585851724125
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0005.jpg",
+        "blur_score": 57.4291606237371
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0006.jpg",
+        "blur_score": 48.295423729327354
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0007.jpg",
+        "blur_score": 48.13469010598955
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0008.jpg",
+        "blur_score": 38.20120118787416
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0009.jpg",
+        "blur_score": 78.69250413131238
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0010.jpg",
+        "blur_score": 69.7154566813687
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0011.jpg",
+        "blur_score": 49.405630725763686
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0012.jpg",
+        "blur_score": 53.196878279511594
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0013.jpg",
+        "blur_score": 47.32401457035457
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0014.jpg",
+        "blur_score": 41.75812954090377
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0015.jpg",
+        "blur_score": 34.14956395857436
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0016.jpg",
+        "blur_score": 41.31437123055162
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0017.jpg",
+        "blur_score": 51.34996330613942
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0018.jpg",
+        "blur_score": 61.90692273361987
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0019.jpg",
+        "blur_score": 53.55211646037517
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0000.jpg",
+        "blur_score": 17.828458913511557
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0001.jpg",
+        "blur_score": 16.251990313929152
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0002.jpg",
+        "blur_score": 12.392955009066428
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0003.jpg",
+        "blur_score": 18.478534820426358
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0004.jpg",
+        "blur_score": 15.392122909358422
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0005.jpg",
+        "blur_score": 20.46817178618953
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0006.jpg",
+        "blur_score": 21.12551740704353
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0007.jpg",
+        "blur_score": 19.47950781449235
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0008.jpg",
+        "blur_score": 11.860428926896075
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0009.jpg",
+        "blur_score": 17.676019772645187
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0010.jpg",
+        "blur_score": 21.284607381236796
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0011.jpg",
+        "blur_score": 17.590242035534917
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0012.jpg",
+        "blur_score": 15.86285690782667
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0013.jpg",
+        "blur_score": 14.103834343671503
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0014.jpg",
+        "blur_score": 16.650948349310426
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0015.jpg",
+        "blur_score": 22.04700010650012
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0016.jpg",
+        "blur_score": 17.21964679505119
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0017.jpg",
+        "blur_score": 16.202425338684744
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0018.jpg",
+        "blur_score": 15.556831111614034
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0019.jpg",
+        "blur_score": 20.584322638632802
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0000.jpg",
+        "blur_score": 7.385961409461145
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0001.jpg",
+        "blur_score": 8.603275929426758
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0002.jpg",
+        "blur_score": 6.566699944749965
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0003.jpg",
+        "blur_score": 4.868382297819329
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0004.jpg",
+        "blur_score": 5.163283557804462
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0005.jpg",
+        "blur_score": 6.79721371802823
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0006.jpg",
+        "blur_score": 6.061360105779061
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0007.jpg",
+        "blur_score": 7.423422395959589
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0008.jpg",
+        "blur_score": 5.99956055037035
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0009.jpg",
+        "blur_score": 5.368320065903098
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0010.jpg",
+        "blur_score": 6.25697381950229
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0011.jpg",
+        "blur_score": 6.655469404265861
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0012.jpg",
+        "blur_score": 6.740606835860603
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0013.jpg",
+        "blur_score": 7.770205927113601
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0014.jpg",
+        "blur_score": 6.229272690677286
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0015.jpg",
+        "blur_score": 5.212810390842601
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0016.jpg",
+        "blur_score": 7.024969863971042
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0017.jpg",
+        "blur_score": 6.630540491093798
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0018.jpg",
+        "blur_score": 5.9480627171946585
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0019.jpg",
+        "blur_score": 7.040417094073758
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0000.jpg",
+        "blur_score": 3.8548109979244227
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0001.jpg",
+        "blur_score": 4.904316661458172
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0002.jpg",
+        "blur_score": 3.8466594891466737
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0003.jpg",
+        "blur_score": 4.146860035694127
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0004.jpg",
+        "blur_score": 4.208364973262865
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0005.jpg",
+        "blur_score": 4.555145797109862
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0006.jpg",
+        "blur_score": 4.001711424764421
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0007.jpg",
+        "blur_score": 3.956770378964387
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0008.jpg",
+        "blur_score": 4.468570421259387
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0009.jpg",
+        "blur_score": 4.05494629845228
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0010.jpg",
+        "blur_score": 4.221420470797385
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0011.jpg",
+        "blur_score": 4.079201154538067
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0012.jpg",
+        "blur_score": 4.080536444352995
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0013.jpg",
+        "blur_score": 4.432176947841938
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0014.jpg",
+        "blur_score": 4.301418947905414
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0015.jpg",
+        "blur_score": 3.8323898855620055
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0016.jpg",
+        "blur_score": 4.732860291912774
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0017.jpg",
+        "blur_score": 3.882452517139668
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0018.jpg",
+        "blur_score": 3.8459222639465964
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0019.jpg",
+        "blur_score": 4.17590080366091
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0000.jpg",
+        "blur_score": 8.290873109673718
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0001.jpg",
+        "blur_score": 8.981026556927777
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0002.jpg",
+        "blur_score": 7.220764992684932
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0003.jpg",
+        "blur_score": 8.308613612720341
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0004.jpg",
+        "blur_score": 10.472118077006055
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0005.jpg",
+        "blur_score": 10.502384017378727
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0006.jpg",
+        "blur_score": 7.0926129167549625
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0007.jpg",
+        "blur_score": 10.386778249982893
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0008.jpg",
+        "blur_score": 11.60503027906819
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0009.jpg",
+        "blur_score": 8.898636773048665
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0010.jpg",
+        "blur_score": 7.599549098890655
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0011.jpg",
+        "blur_score": 10.618878967907964
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0012.jpg",
+        "blur_score": 7.675998361643927
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0013.jpg",
+        "blur_score": 8.481843842312179
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0014.jpg",
+        "blur_score": 8.33871509372468
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0015.jpg",
+        "blur_score": 9.307880790468953
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0016.jpg",
+        "blur_score": 10.510282371104731
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0017.jpg",
+        "blur_score": 9.78729608862264
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0018.jpg",
+        "blur_score": 7.558013667766375
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0019.jpg",
+        "blur_score": 10.92071880037116
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0000.jpg",
+        "blur_score": 23.88019679616462
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0001.jpg",
+        "blur_score": 22.851542480783333
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0002.jpg",
+        "blur_score": 27.990068418589395
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0003.jpg",
+        "blur_score": 66.48571827509959
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0004.jpg",
+        "blur_score": 81.90005859063596
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0005.jpg",
+        "blur_score": 85.14910059797423
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0006.jpg",
+        "blur_score": 27.024910133612845
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0007.jpg",
+        "blur_score": 19.409279177855176
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0008.jpg",
+        "blur_score": 22.716841249652624
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0009.jpg",
+        "blur_score": 77.06859337116768
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0010.jpg",
+        "blur_score": 28.672711924879017
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0011.jpg",
+        "blur_score": 28.65514640339411
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0012.jpg",
+        "blur_score": 74.47761691187581
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0013.jpg",
+        "blur_score": 22.075075644048635
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0014.jpg",
+        "blur_score": 52.64265685139076
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0015.jpg",
+        "blur_score": 69.08686490477942
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0016.jpg",
+        "blur_score": 27.827746265781567
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0017.jpg",
+        "blur_score": 44.83756991080173
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0018.jpg",
+        "blur_score": 81.45590600169038
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0019.jpg",
+        "blur_score": 32.12428195195514
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0000.jpg",
+        "blur_score": 3.9505133126388734
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0001.jpg",
+        "blur_score": 4.016520266630212
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0002.jpg",
+        "blur_score": 3.6286863539924923
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0003.jpg",
+        "blur_score": 3.702964315609056
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0004.jpg",
+        "blur_score": 3.6722317909707827
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0005.jpg",
+        "blur_score": 4.003168177972085
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0006.jpg",
+        "blur_score": 3.9338919632835014
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0007.jpg",
+        "blur_score": 3.543984997029207
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0008.jpg",
+        "blur_score": 3.8814168371592195
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0009.jpg",
+        "blur_score": 3.6702985398126904
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0010.jpg",
+        "blur_score": 3.919063775850207
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0011.jpg",
+        "blur_score": 3.9742502802761828
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0012.jpg",
+        "blur_score": 4.010064505577485
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0013.jpg",
+        "blur_score": 4.0268654336734695
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0014.jpg",
+        "blur_score": 3.724329656484176
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0015.jpg",
+        "blur_score": 3.7938256662917698
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0016.jpg",
+        "blur_score": 4.016379792111359
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0017.jpg",
+        "blur_score": 3.604212215968541
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0018.jpg",
+        "blur_score": 3.8962252389287415
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0019.jpg",
+        "blur_score": 3.7345543014958515
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0000.jpg",
+        "blur_score": 40.004464228517655
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0001.jpg",
+        "blur_score": 59.05524055325255
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0002.jpg",
+        "blur_score": 34.93233805485241
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0003.jpg",
+        "blur_score": 50.81143123931758
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0004.jpg",
+        "blur_score": 30.866609359274104
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0005.jpg",
+        "blur_score": 35.76733826617805
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0006.jpg",
+        "blur_score": 40.88752100260145
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0007.jpg",
+        "blur_score": 49.64770009566327
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0008.jpg",
+        "blur_score": 49.05026360741758
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0009.jpg",
+        "blur_score": 36.35277783895521
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0010.jpg",
+        "blur_score": 37.78734807400146
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0011.jpg",
+        "blur_score": 45.666087780133836
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0012.jpg",
+        "blur_score": 34.89813743656449
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0013.jpg",
+        "blur_score": 43.643534446249205
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0014.jpg",
+        "blur_score": 31.924002056368092
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0015.jpg",
+        "blur_score": 42.91449271396317
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0016.jpg",
+        "blur_score": 33.120218004499165
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0017.jpg",
+        "blur_score": 37.712829544960286
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0018.jpg",
+        "blur_score": 49.678838420837735
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0019.jpg",
+        "blur_score": 42.29432371108545
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0000.jpg",
+        "blur_score": 3.687061028597703
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0001.jpg",
+        "blur_score": 4.899931504099829
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0002.jpg",
+        "blur_score": 4.337272551495649
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0003.jpg",
+        "blur_score": 3.6088964914292507
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0004.jpg",
+        "blur_score": 4.290557095131642
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0005.jpg",
+        "blur_score": 3.7709459350884633
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0006.jpg",
+        "blur_score": 4.229392226861448
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0007.jpg",
+        "blur_score": 4.434768657295072
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0008.jpg",
+        "blur_score": 4.618383131936807
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0009.jpg",
+        "blur_score": 4.212930470394721
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0010.jpg",
+        "blur_score": 3.5785435168557442
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0011.jpg",
+        "blur_score": 3.967733288248198
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0012.jpg",
+        "blur_score": 3.6223089840947367
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0013.jpg",
+        "blur_score": 4.741188832592438
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0014.jpg",
+        "blur_score": 3.6825173460210876
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0015.jpg",
+        "blur_score": 4.746890103404892
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0016.jpg",
+        "blur_score": 4.330795470797385
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0017.jpg",
+        "blur_score": 4.244559008396948
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0018.jpg",
+        "blur_score": 3.78208674216757
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0019.jpg",
+        "blur_score": 3.6382927213396346
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0000.jpg",
+        "blur_score": 41.85125865721791
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0001.jpg",
+        "blur_score": 45.334602133128506
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0002.jpg",
+        "blur_score": 56.22689490097853
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0003.jpg",
+        "blur_score": 47.79367479112237
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0004.jpg",
+        "blur_score": 65.59602190086812
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0005.jpg",
+        "blur_score": 38.40552517892121
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0006.jpg",
+        "blur_score": 32.03671064936881
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0007.jpg",
+        "blur_score": 44.936774961256276
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0008.jpg",
+        "blur_score": 36.948421327335936
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0009.jpg",
+        "blur_score": 58.43622293237943
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0010.jpg",
+        "blur_score": 49.51211534148204
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0011.jpg",
+        "blur_score": 44.49069180780528
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0012.jpg",
+        "blur_score": 48.59346706099631
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0013.jpg",
+        "blur_score": 47.86304199015385
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0014.jpg",
+        "blur_score": 42.186012560007526
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0015.jpg",
+        "blur_score": 45.518433630441635
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0016.jpg",
+        "blur_score": 43.91058409626114
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0017.jpg",
+        "blur_score": 40.62360010460882
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0018.jpg",
+        "blur_score": 49.2990751063908
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0019.jpg",
+        "blur_score": 49.38497294966552
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0000.jpg",
+        "blur_score": 12.925701301825736
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0001.jpg",
+        "blur_score": 17.71833118365636
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0002.jpg",
+        "blur_score": 26.981722947708125
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0003.jpg",
+        "blur_score": 18.47041419147204
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0004.jpg",
+        "blur_score": 20.102299900761945
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0005.jpg",
+        "blur_score": 14.262294713282078
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0006.jpg",
+        "blur_score": 16.47304067766602
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0007.jpg",
+        "blur_score": 17.02569747696018
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0008.jpg",
+        "blur_score": 16.936779587827886
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0009.jpg",
+        "blur_score": 15.172731951245266
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0010.jpg",
+        "blur_score": 18.181629414461096
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0011.jpg",
+        "blur_score": 16.83145027804107
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0012.jpg",
+        "blur_score": 15.773960190979157
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0013.jpg",
+        "blur_score": 20.179926251431695
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0014.jpg",
+        "blur_score": 21.430843024390878
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0015.jpg",
+        "blur_score": 21.07782977484306
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0016.jpg",
+        "blur_score": 16.918796626690376
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0017.jpg",
+        "blur_score": 14.985331059097994
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0018.jpg",
+        "blur_score": 16.914895421115123
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0019.jpg",
+        "blur_score": 20.554368597028258
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0000.jpg",
+        "blur_score": 5.556359065070543
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0001.jpg",
+        "blur_score": 6.04422389780765
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0002.jpg",
+        "blur_score": 6.394847456786295
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0003.jpg",
+        "blur_score": 6.093249519583287
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0004.jpg",
+        "blur_score": 6.265365368224641
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0005.jpg",
+        "blur_score": 7.170997093737697
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0006.jpg",
+        "blur_score": 6.32065121802823
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0007.jpg",
+        "blur_score": 7.457488059997559
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0008.jpg",
+        "blur_score": 5.60750151653679
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0009.jpg",
+        "blur_score": 7.242824740332397
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0010.jpg",
+        "blur_score": 5.756496429443359
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0011.jpg",
+        "blur_score": 5.820530526789959
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0012.jpg",
+        "blur_score": 7.376074265460579
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0013.jpg",
+        "blur_score": 6.2915335722339
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0014.jpg",
+        "blur_score": 5.788204782161053
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0015.jpg",
+        "blur_score": 6.468501664955682
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0016.jpg",
+        "blur_score": 6.178491631332709
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0017.jpg",
+        "blur_score": 6.957208384379205
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0018.jpg",
+        "blur_score": 5.202287921007848
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0019.jpg",
+        "blur_score": 6.486706788517047
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0000.jpg",
+        "blur_score": 3.840400449537526
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0001.jpg",
+        "blur_score": 3.811981695287181
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0002.jpg",
+        "blur_score": 4.301717838015669
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0003.jpg",
+        "blur_score": 4.108717200260567
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0004.jpg",
+        "blur_score": 3.858099489795918
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0005.jpg",
+        "blur_score": 3.9274148619309015
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0006.jpg",
+        "blur_score": 4.285156192803373
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0007.jpg",
+        "blur_score": 4.613878444749481
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0008.jpg",
+        "blur_score": 3.8124601387173276
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0009.jpg",
+        "blur_score": 4.065130638113026
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0010.jpg",
+        "blur_score": 4.597078252265673
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0011.jpg",
+        "blur_score": 4.0443824786337546
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0012.jpg",
+        "blur_score": 4.262096873326681
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0013.jpg",
+        "blur_score": 3.912467119247901
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0014.jpg",
+        "blur_score": 3.9714205931346145
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0015.jpg",
+        "blur_score": 3.916753025761946
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0016.jpg",
+        "blur_score": 4.171496122789999
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0017.jpg",
+        "blur_score": 3.843829018729074
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0018.jpg",
+        "blur_score": 4.052016894155024
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0019.jpg",
+        "blur_score": 4.833884550600636
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0000.jpg",
+        "blur_score": 8.150064826657106
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0001.jpg",
+        "blur_score": 9.009897380608017
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0002.jpg",
+        "blur_score": 8.79011840017971
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0003.jpg",
+        "blur_score": 7.500713171635206
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0004.jpg",
+        "blur_score": 11.546286481263884
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0005.jpg",
+        "blur_score": 9.970962180837102
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0006.jpg",
+        "blur_score": 8.85024579392528
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0007.jpg",
+        "blur_score": 8.850863753830778
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0008.jpg",
+        "blur_score": 11.250258839760956
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0009.jpg",
+        "blur_score": 8.623146457108097
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0010.jpg",
+        "blur_score": 8.94485096730872
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0011.jpg",
+        "blur_score": 9.232898354679284
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0012.jpg",
+        "blur_score": 8.973352116477932
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0013.jpg",
+        "blur_score": 8.934051402059012
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0014.jpg",
+        "blur_score": 10.057676517879004
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0015.jpg",
+        "blur_score": 7.852563104148906
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0016.jpg",
+        "blur_score": 10.240351895003059
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0017.jpg",
+        "blur_score": 6.808809542943914
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0018.jpg",
+        "blur_score": 7.9235479489111595
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0019.jpg",
+        "blur_score": 9.281197353285187
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0000.jpg",
+        "blur_score": 29.589235307772125
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0001.jpg",
+        "blur_score": 77.20271172219641
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0002.jpg",
+        "blur_score": 25.18921394141601
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0003.jpg",
+        "blur_score": 26.42046092739209
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0004.jpg",
+        "blur_score": 56.0914848701798
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0005.jpg",
+        "blur_score": 29.786032971021086
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0006.jpg",
+        "blur_score": 58.90687808887208
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0007.jpg",
+        "blur_score": 73.53013945598991
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0008.jpg",
+        "blur_score": 57.99101162910064
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0009.jpg",
+        "blur_score": 29.91065740644907
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0010.jpg",
+        "blur_score": 23.318908710471792
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0011.jpg",
+        "blur_score": 25.01949682994368
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0012.jpg",
+        "blur_score": 72.53141735693356
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0013.jpg",
+        "blur_score": 25.893454846021086
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0014.jpg",
+        "blur_score": 65.83793622620252
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0015.jpg",
+        "blur_score": 61.593490736825125
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0016.jpg",
+        "blur_score": 84.51130510399312
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0017.jpg",
+        "blur_score": 56.97186298958216
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0018.jpg",
+        "blur_score": 66.08107354332138
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0019.jpg",
+        "blur_score": 60.9075255038489
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0000.jpg",
+        "blur_score": 3.827226478722829
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0001.jpg",
+        "blur_score": 3.6682275039660146
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0002.jpg",
+        "blur_score": 3.7421865848539673
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0003.jpg",
+        "blur_score": 3.902941376901776
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0004.jpg",
+        "blur_score": 3.7710809719557568
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0005.jpg",
+        "blur_score": 3.6914258458027494
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0006.jpg",
+        "blur_score": 3.795997451216616
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0007.jpg",
+        "blur_score": 3.671316907089088
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0008.jpg",
+        "blur_score": 3.725685180003124
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0009.jpg",
+        "blur_score": 4.005978185104758
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0010.jpg",
+        "blur_score": 3.5285781548947703
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0011.jpg",
+        "blur_score": 3.9288096715886613
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0012.jpg",
+        "blur_score": 3.8973006943969213
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0013.jpg",
+        "blur_score": 3.805125931211929
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0014.jpg",
+        "blur_score": 3.840521358440738
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0015.jpg",
+        "blur_score": 4.050003499400859
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0016.jpg",
+        "blur_score": 3.9189253572323373
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0017.jpg",
+        "blur_score": 3.904256246329248
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0018.jpg",
+        "blur_score": 3.8144730544497403
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0019.jpg",
+        "blur_score": 3.7816684787246597
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0000.jpg",
+        "blur_score": 38.406085578762756
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0001.jpg",
+        "blur_score": 49.28864336907491
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0002.jpg",
+        "blur_score": 39.18444837842669
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0003.jpg",
+        "blur_score": 43.29587773867619
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0004.jpg",
+        "blur_score": 42.324796333853186
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0005.jpg",
+        "blur_score": 55.135902572800255
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0006.jpg",
+        "blur_score": 33.470360265777096
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0007.jpg",
+        "blur_score": 43.24497660454587
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0008.jpg",
+        "blur_score": 38.2429210113913
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0009.jpg",
+        "blur_score": 37.32875614571403
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0010.jpg",
+        "blur_score": 49.68825924351829
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0011.jpg",
+        "blur_score": 54.471853711415406
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0012.jpg",
+        "blur_score": 41.72800211964027
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0013.jpg",
+        "blur_score": 47.38526380404688
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0014.jpg",
+        "blur_score": 38.680065734542346
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0015.jpg",
+        "blur_score": 35.561603153312966
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0016.jpg",
+        "blur_score": 30.109473266585674
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0017.jpg",
+        "blur_score": 42.75669641427227
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0018.jpg",
+        "blur_score": 39.85769926593086
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0019.jpg",
+        "blur_score": 40.408600476323336
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0000.jpg",
+        "blur_score": 4.179807079081633
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0001.jpg",
+        "blur_score": 3.729551848348405
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0002.jpg",
+        "blur_score": 3.6062460136334136
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0003.jpg",
+        "blur_score": 3.64845742627215
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0004.jpg",
+        "blur_score": 3.7628148435205775
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0005.jpg",
+        "blur_score": 3.6863025822573925
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0006.jpg",
+        "blur_score": 3.9669362945588413
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0007.jpg",
+        "blur_score": 4.880281389976035
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0008.jpg",
+        "blur_score": 4.247209552922183
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0009.jpg",
+        "blur_score": 4.36967866374075
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0010.jpg",
+        "blur_score": 3.7905165744989624
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0011.jpg",
+        "blur_score": 3.650709343671501
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0012.jpg",
+        "blur_score": 4.423210089626734
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0013.jpg",
+        "blur_score": 3.5768493309163993
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0014.jpg",
+        "blur_score": 4.256816006064266
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0015.jpg",
+        "blur_score": 4.471579981068679
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0016.jpg",
+        "blur_score": 3.819733418707349
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0017.jpg",
+        "blur_score": 4.485191913606325
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0018.jpg",
+        "blur_score": 4.300063673827312
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0019.jpg",
+        "blur_score": 3.6502507343633828
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0000.jpg",
+        "blur_score": 51.67435599743749
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0001.jpg",
+        "blur_score": 53.82166767239521
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0002.jpg",
+        "blur_score": 37.20966147502628
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0003.jpg",
+        "blur_score": 53.96308940869975
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0004.jpg",
+        "blur_score": 47.9453781807934
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0005.jpg",
+        "blur_score": 34.38773027830747
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0006.jpg",
+        "blur_score": 43.4056515898222
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0007.jpg",
+        "blur_score": 63.440083959310165
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0008.jpg",
+        "blur_score": 51.245834413740546
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0009.jpg",
+        "blur_score": 43.23252997503634
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0010.jpg",
+        "blur_score": 49.7584769579829
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0011.jpg",
+        "blur_score": 55.87555726673741
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0012.jpg",
+        "blur_score": 40.046476388762066
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0013.jpg",
+        "blur_score": 39.13098699616572
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0014.jpg",
+        "blur_score": 39.053905164137916
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0015.jpg",
+        "blur_score": 52.216517283587784
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0016.jpg",
+        "blur_score": 55.37400340597017
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0017.jpg",
+        "blur_score": 50.93438921367957
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0018.jpg",
+        "blur_score": 44.163910826858206
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0019.jpg",
+        "blur_score": 40.63436569188446
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0000.jpg",
+        "blur_score": 16.43197761322746
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0001.jpg",
+        "blur_score": 17.23762121005934
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0002.jpg",
+        "blur_score": 15.018773215157646
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0003.jpg",
+        "blur_score": 14.981643034487355
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0004.jpg",
+        "blur_score": 19.976733349105405
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0005.jpg",
+        "blur_score": 16.895498269798853
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0006.jpg",
+        "blur_score": 13.0127531557667
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0007.jpg",
+        "blur_score": 21.618162946768578
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0008.jpg",
+        "blur_score": 13.357521314116527
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0009.jpg",
+        "blur_score": 14.927554271956971
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0010.jpg",
+        "blur_score": 20.517039929762923
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0011.jpg",
+        "blur_score": 11.789341460660514
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0012.jpg",
+        "blur_score": 18.075472096113895
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0013.jpg",
+        "blur_score": 15.6967755579442
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0014.jpg",
+        "blur_score": 23.360225003841066
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0015.jpg",
+        "blur_score": 17.393793413113777
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0016.jpg",
+        "blur_score": 16.777352065356858
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0017.jpg",
+        "blur_score": 16.755561132720985
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0018.jpg",
+        "blur_score": 21.365630301174054
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0019.jpg",
+        "blur_score": 16.842374751191493
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0000.jpg",
+        "blur_score": 6.082669003513247
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0001.jpg",
+        "blur_score": 6.296667001288119
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0002.jpg",
+        "blur_score": 8.523856007322973
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0003.jpg",
+        "blur_score": 5.5147856522083085
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0004.jpg",
+        "blur_score": 5.941658099062091
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0005.jpg",
+        "blur_score": 6.228474772309125
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0006.jpg",
+        "blur_score": 6.223208941007246
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0007.jpg",
+        "blur_score": 6.608975562588566
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0008.jpg",
+        "blur_score": 7.277182684298209
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0009.jpg",
+        "blur_score": 7.367082413510946
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0010.jpg",
+        "blur_score": 6.512874412616061
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0011.jpg",
+        "blur_score": 6.227935657159629
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0012.jpg",
+        "blur_score": 7.268450055803571
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0013.jpg",
+        "blur_score": 6.640092181643066
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0014.jpg",
+        "blur_score": 5.01133996811771
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0015.jpg",
+        "blur_score": 5.975205211329589
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0016.jpg",
+        "blur_score": 7.735051914137237
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0017.jpg",
+        "blur_score": 6.755121881293537
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0018.jpg",
+        "blur_score": 5.985768252638468
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0019.jpg",
+        "blur_score": 6.183652506426741
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0000.jpg",
+        "blur_score": 4.066523992434386
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0001.jpg",
+        "blur_score": 4.3237005167829645
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0002.jpg",
+        "blur_score": 4.076630242016851
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0003.jpg",
+        "blur_score": 3.780253506064266
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0004.jpg",
+        "blur_score": 4.443517383859834
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0005.jpg",
+        "blur_score": 3.8745811836563613
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0006.jpg",
+        "blur_score": 4.5601676037687895
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0007.jpg",
+        "blur_score": 4.068179939250954
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0008.jpg",
+        "blur_score": 3.892597987720342
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0009.jpg",
+        "blur_score": 4.3161272178437
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0010.jpg",
+        "blur_score": 4.208326689653822
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0011.jpg",
+        "blur_score": 3.8613476222974463
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0012.jpg",
+        "blur_score": 4.088109763946597
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0013.jpg",
+        "blur_score": 3.9195410912357627
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0014.jpg",
+        "blur_score": 4.066146986825125
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0015.jpg",
+        "blur_score": 4.290656695510883
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0016.jpg",
+        "blur_score": 4.057684463046581
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0017.jpg",
+        "blur_score": 4.228354456026522
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0018.jpg",
+        "blur_score": 3.9826387483246473
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0019.jpg",
+        "blur_score": 4.565628985572189
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0000.jpg",
+        "blur_score": 9.403038939651179
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0001.jpg",
+        "blur_score": 5.935267831722134
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0002.jpg",
+        "blur_score": 9.440408988676186
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0003.jpg",
+        "blur_score": 7.7258841845454
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0004.jpg",
+        "blur_score": 7.42855148879452
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0005.jpg",
+        "blur_score": 8.068095787521802
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0006.jpg",
+        "blur_score": 9.544701168706942
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0007.jpg",
+        "blur_score": 11.390996850763246
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0008.jpg",
+        "blur_score": 10.327007682955994
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0009.jpg",
+        "blur_score": 7.947704041912774
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0010.jpg",
+        "blur_score": 6.734115797199343
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0011.jpg",
+        "blur_score": 8.81010836117072
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0012.jpg",
+        "blur_score": 9.18993143497135
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0013.jpg",
+        "blur_score": 9.952053614627912
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0014.jpg",
+        "blur_score": 9.151084734270444
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0015.jpg",
+        "blur_score": 9.615731419647103
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0016.jpg",
+        "blur_score": 9.797741230206409
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0017.jpg",
+        "blur_score": 8.298867673290019
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0018.jpg",
+        "blur_score": 10.387874107567384
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0019.jpg",
+        "blur_score": 9.294064748192866
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0000.jpg",
+        "blur_score": 62.89081402214206
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0001.jpg",
+        "blur_score": 56.9640717734798
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0002.jpg",
+        "blur_score": 25.52311689225101
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0003.jpg",
+        "blur_score": 23.64518745697225
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0004.jpg",
+        "blur_score": 21.913827856795482
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0005.jpg",
+        "blur_score": 72.90824282581436
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0006.jpg",
+        "blur_score": 25.169184381293533
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0007.jpg",
+        "blur_score": 46.75169265434078
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0008.jpg",
+        "blur_score": 56.09074052598565
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0009.jpg",
+        "blur_score": 22.832303135755502
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0010.jpg",
+        "blur_score": 65.07334112336565
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0011.jpg",
+        "blur_score": 64.18107213977972
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0012.jpg",
+        "blur_score": 45.29148986090326
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0013.jpg",
+        "blur_score": 58.919921239481916
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0014.jpg",
+        "blur_score": 69.5357107760657
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0015.jpg",
+        "blur_score": 27.411008685889314
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0016.jpg",
+        "blur_score": 24.745864480100835
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0017.jpg",
+        "blur_score": 23.208563957150805
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0018.jpg",
+        "blur_score": 58.475125604746296
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0019.jpg",
+        "blur_score": 32.22994958098259
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0000.jpg",
+        "blur_score": 3.678211922349656
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0001.jpg",
+        "blur_score": 3.9641657284725116
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0002.jpg",
+        "blur_score": 3.898855483020559
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0003.jpg",
+        "blur_score": 3.635423195158527
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0004.jpg",
+        "blur_score": 3.9482618488405503
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0005.jpg",
+        "blur_score": 3.7007125348460916
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0006.jpg",
+        "blur_score": 4.159377307804462
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0007.jpg",
+        "blur_score": 3.825154648478554
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0008.jpg",
+        "blur_score": 4.0246133129083335
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0009.jpg",
+        "blur_score": 3.664979233239304
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0010.jpg",
+        "blur_score": 3.6095340320439404
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0011.jpg",
+        "blur_score": 3.608936537012166
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0012.jpg",
+        "blur_score": 3.809111568541489
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0013.jpg",
+        "blur_score": 4.043705486645554
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0014.jpg",
+        "blur_score": 3.9066683833969478
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0015.jpg",
+        "blur_score": 3.8417967161204807
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0016.jpg",
+        "blur_score": 3.6851083166844543
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0017.jpg",
+        "blur_score": 3.839743496625933
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0018.jpg",
+        "blur_score": 3.6513073979591835
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0019.jpg",
+        "blur_score": 3.990233915838188
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0000.jpg",
+        "blur_score": 43.06144565286759
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0001.jpg",
+        "blur_score": 33.675640164589396
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0002.jpg",
+        "blur_score": 31.62654801042613
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0003.jpg",
+        "blur_score": 57.32743874493862
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0004.jpg",
+        "blur_score": 46.369797575528395
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0005.jpg",
+        "blur_score": 51.00600028206834
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0006.jpg",
+        "blur_score": 53.949018877975554
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0007.jpg",
+        "blur_score": 53.79392147064209
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0008.jpg",
+        "blur_score": 62.77236988642772
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0009.jpg",
+        "blur_score": 30.465235426146904
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0010.jpg",
+        "blur_score": 52.22565651138542
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0011.jpg",
+        "blur_score": 36.88258054503695
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0012.jpg",
+        "blur_score": 44.842653123997785
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0013.jpg",
+        "blur_score": 55.99585782940415
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0014.jpg",
+        "blur_score": 40.78750542986647
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0015.jpg",
+        "blur_score": 35.772111141597264
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0016.jpg",
+        "blur_score": 52.12018012921049
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0017.jpg",
+        "blur_score": 43.82382013876207
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0018.jpg",
+        "blur_score": 38.90607723441038
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0019.jpg",
+        "blur_score": 43.984315035294514
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0000.jpg",
+        "blur_score": 4.214285255123903
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0001.jpg",
+        "blur_score": 3.5644927559073696
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0002.jpg",
+        "blur_score": 3.6342075114347496
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0003.jpg",
+        "blur_score": 4.012114804866462
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0004.jpg",
+        "blur_score": 3.653120924660882
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0005.jpg",
+        "blur_score": 3.602658552211903
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0006.jpg",
+        "blur_score": 3.717333947753271
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0007.jpg",
+        "blur_score": 4.183791802853954
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0008.jpg",
+        "blur_score": 3.789700153419149
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0009.jpg",
+        "blur_score": 4.916294128087499
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0010.jpg",
+        "blur_score": 3.646184394181842
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0011.jpg",
+        "blur_score": 3.6911664563186566
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0012.jpg",
+        "blur_score": 3.5433466826712565
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0013.jpg",
+        "blur_score": 3.508190918842587
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0014.jpg",
+        "blur_score": 4.3989347130593925
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0015.jpg",
+        "blur_score": 4.4070269744726875
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0016.jpg",
+        "blur_score": 4.639130172109862
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0017.jpg",
+        "blur_score": 4.532464604931839
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0018.jpg",
+        "blur_score": 3.6646789426060833
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0019.jpg",
+        "blur_score": 4.41370306209642
+      }
+    ],
+    "brightness_issues": [
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0001.jpg",
+        "brightness": 220.22512755102042
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0003.jpg",
+        "brightness": 205.34907126913265
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0006.jpg",
+        "brightness": 204.25101642219389
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0007.jpg",
+        "brightness": 210.13663903061226
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0008.jpg",
+        "brightness": 217.76604352678572
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0013.jpg",
+        "brightness": 215.9088807397959
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0014.jpg",
+        "brightness": 208.4568319515306
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0015.jpg",
+        "brightness": 200.25490274234693
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0016.jpg",
+        "brightness": 220.59074059311226
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\beef\\beef_0019.jpg",
+        "brightness": 212.67859135841837
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0000.jpg",
+        "brightness": 219.97606425382654
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0001.jpg",
+        "brightness": 236.59376992984693
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0002.jpg",
+        "brightness": 241.91105309311226
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0003.jpg",
+        "brightness": 230.49304448341837
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0004.jpg",
+        "brightness": 226.29330755739795
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0005.jpg",
+        "brightness": 226.50948660714286
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0006.jpg",
+        "brightness": 219.61993781887756
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0007.jpg",
+        "brightness": 222.1955117984694
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0008.jpg",
+        "brightness": 237.4552774234694
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0009.jpg",
+        "brightness": 228.81200175382654
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0010.jpg",
+        "brightness": 232.28985969387756
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0011.jpg",
+        "brightness": 229.02160395408163
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0012.jpg",
+        "brightness": 232.9269172512755
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0013.jpg",
+        "brightness": 235.76646205357142
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0014.jpg",
+        "brightness": 232.51265545280611
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0015.jpg",
+        "brightness": 216.12280771683675
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0016.jpg",
+        "brightness": 221.1832948022959
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0017.jpg",
+        "brightness": 228.06289859693877
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0018.jpg",
+        "brightness": 228.5973971619898
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\cheese\\cheese_0019.jpg",
+        "brightness": 227.2129902742347
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0000.jpg",
+        "brightness": 236.40906010841837
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0001.jpg",
+        "brightness": 235.72781808035714
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0002.jpg",
+        "brightness": 241.7350924744898
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0003.jpg",
+        "brightness": 247.8308553890306
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0004.jpg",
+        "brightness": 246.904296875
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0005.jpg",
+        "brightness": 239.97604432397958
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0006.jpg",
+        "brightness": 240.9962531887755
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0007.jpg",
+        "brightness": 238.70455994897958
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0008.jpg",
+        "brightness": 241.96219308035714
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0009.jpg",
+        "brightness": 245.71867028061226
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0010.jpg",
+        "brightness": 243.2043606505102
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0011.jpg",
+        "brightness": 239.74268574617346
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0012.jpg",
+        "brightness": 241.7840800382653
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0013.jpg",
+        "brightness": 236.55167809311226
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0014.jpg",
+        "brightness": 244.57170758928572
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0015.jpg",
+        "brightness": 246.40551259566325
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0016.jpg",
+        "brightness": 241.5037468112245
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0017.jpg",
+        "brightness": 243.3332071109694
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0018.jpg",
+        "brightness": 246.16350446428572
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\chicken\\chicken_0019.jpg",
+        "brightness": 242.91404257015307
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0000.jpg",
+        "brightness": 249.7073899872449
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0001.jpg",
+        "brightness": 245.40802375637756
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0002.jpg",
+        "brightness": 249.56881776147958
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0003.jpg",
+        "brightness": 248.2200852997449
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0004.jpg",
+        "brightness": 248.1192402742347
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0005.jpg",
+        "brightness": 246.0706114477041
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0006.jpg",
+        "brightness": 248.7129902742347
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0007.jpg",
+        "brightness": 248.49790736607142
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0008.jpg",
+        "brightness": 248.05173788265307
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0009.jpg",
+        "brightness": 248.33894690688774
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0010.jpg",
+        "brightness": 248.73776307397958
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0011.jpg",
+        "brightness": 248.8806002869898
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0012.jpg",
+        "brightness": 248.3392259247449
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0013.jpg",
+        "brightness": 246.1550741390306
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0014.jpg",
+        "brightness": 247.31951530612244
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0015.jpg",
+        "brightness": 249.9323580994898
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0016.jpg",
+        "brightness": 246.53693000637756
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0017.jpg",
+        "brightness": 250.24133051658163
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0018.jpg",
+        "brightness": 249.14178093112244
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\eggs\\eggs_0019.jpg",
+        "brightness": 248.59542410714286
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0000.jpg",
+        "brightness": 241.9198222257653
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0001.jpg",
+        "brightness": 242.26540577168367
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0002.jpg",
+        "brightness": 236.97098214285714
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0003.jpg",
+        "brightness": 234.8329081632653
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0004.jpg",
+        "brightness": 232.51775749362244
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0005.jpg",
+        "brightness": 229.18439094387756
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0006.jpg",
+        "brightness": 245.30060188137756
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0007.jpg",
+        "brightness": 235.64303651147958
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0008.jpg",
+        "brightness": 238.49487802933675
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0009.jpg",
+        "brightness": 241.71781329719389
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0010.jpg",
+        "brightness": 241.02953603316325
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0011.jpg",
+        "brightness": 231.21584024234693
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0012.jpg",
+        "brightness": 236.6261758609694
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0013.jpg",
+        "brightness": 236.94375797193877
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0014.jpg",
+        "brightness": 233.9782166772959
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0015.jpg",
+        "brightness": 239.98728475765307
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0016.jpg",
+        "brightness": 237.07260443239795
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0017.jpg",
+        "brightness": 240.72999043367346
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0018.jpg",
+        "brightness": 242.97771843112244
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fish\\fish_0019.jpg",
+        "brightness": 239.7809510522959
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0000.jpg",
+        "brightness": 220.88526387117346
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0001.jpg",
+        "brightness": 224.5407166772959
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0002.jpg",
+        "brightness": 218.4074258609694
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0004.jpg",
+        "brightness": 209.4031608737245
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0006.jpg",
+        "brightness": 221.95248724489795
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0007.jpg",
+        "brightness": 227.78039301658163
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0008.jpg",
+        "brightness": 235.4422233737245
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0010.jpg",
+        "brightness": 221.9695671237245
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0011.jpg",
+        "brightness": 207.11654974489795
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0013.jpg",
+        "brightness": 235.4239875637755
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0014.jpg",
+        "brightness": 223.34929049744898
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0015.jpg",
+        "brightness": 204.9255819515306
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0016.jpg",
+        "brightness": 226.82967952806123
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0017.jpg",
+        "brightness": 220.72803730867346
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\fruits\\fruits_0019.jpg",
+        "brightness": 218.14285714285714
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0000.jpg",
+        "brightness": 250.1711575255102
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0001.jpg",
+        "brightness": 250.08527981505102
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0002.jpg",
+        "brightness": 251.06283880739795
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0003.jpg",
+        "brightness": 251.14275749362244
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0004.jpg",
+        "brightness": 250.89983258928572
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0005.jpg",
+        "brightness": 250.15700733418367
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0006.jpg",
+        "brightness": 250.35949457908163
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0007.jpg",
+        "brightness": 251.1539979272959
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0008.jpg",
+        "brightness": 250.34450733418367
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0009.jpg",
+        "brightness": 250.88410794005102
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0010.jpg",
+        "brightness": 250.37513950892858
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0011.jpg",
+        "brightness": 250.06684470663265
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0012.jpg",
+        "brightness": 250.0988321109694
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0013.jpg",
+        "brightness": 250.10642538265307
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0014.jpg",
+        "brightness": 250.82192681760205
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0015.jpg",
+        "brightness": 250.70139110331633
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0016.jpg",
+        "brightness": 250.03645169005102
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0017.jpg",
+        "brightness": 251.03970025510205
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0018.jpg",
+        "brightness": 250.50109614158163
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\milk\\milk_0019.jpg",
+        "brightness": 250.79155373086735
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0002.jpg",
+        "brightness": 222.61453683035714
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0003.jpg",
+        "brightness": 208.4049147002551
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0004.jpg",
+        "brightness": 230.25679607780611
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0005.jpg",
+        "brightness": 225.06333705357142
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0006.jpg",
+        "brightness": 222.21958705357142
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0009.jpg",
+        "brightness": 203.03872369260205
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0010.jpg",
+        "brightness": 227.57932079081633
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0011.jpg",
+        "brightness": 222.28463807397958
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0012.jpg",
+        "brightness": 229.1620495854592
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0013.jpg",
+        "brightness": 204.07722815688774
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0014.jpg",
+        "brightness": 207.91218909438774
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0016.jpg",
+        "brightness": 205.82840401785714
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0017.jpg",
+        "brightness": 228.06989397321428
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\vegetables\\vegetables_0019.jpg",
+        "brightness": 226.0819316007653
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0000.jpg",
+        "brightness": 251.03204719387756
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0001.jpg",
+        "brightness": 247.06002869897958
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0002.jpg",
+        "brightness": 249.13829320790816
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0003.jpg",
+        "brightness": 251.16476004464286
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0004.jpg",
+        "brightness": 248.89299665178572
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0005.jpg",
+        "brightness": 250.9930046237245
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0006.jpg",
+        "brightness": 248.78316326530611
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0007.jpg",
+        "brightness": 248.06453284438774
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0008.jpg",
+        "brightness": 247.61704799107142
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0009.jpg",
+        "brightness": 249.18753985969389
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0010.jpg",
+        "brightness": 251.1662747130102
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0011.jpg",
+        "brightness": 250.4034199617347
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0012.jpg",
+        "brightness": 251.0228196747449
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0013.jpg",
+        "brightness": 247.9801698022959
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0014.jpg",
+        "brightness": 251.01887356505102
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0015.jpg",
+        "brightness": 247.3616868622449
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0016.jpg",
+        "brightness": 249.0995495854592
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0017.jpg",
+        "brightness": 248.94477439413265
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0018.jpg",
+        "brightness": 250.55538504464286
+      },
+      {
+        "file": "ai_model\\sample_dataset\\train\\yogurt\\yogurt_0019.jpg",
+        "brightness": 251.048828125
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0000.jpg",
+        "brightness": 224.30416932397958
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0001.jpg",
+        "brightness": 204.66745057397958
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0002.jpg",
+        "brightness": 209.76664142219389
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0004.jpg",
+        "brightness": 202.27260044642858
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0005.jpg",
+        "brightness": 221.46452487244898
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0006.jpg",
+        "brightness": 214.8376913265306
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0007.jpg",
+        "brightness": 228.98202327806123
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0008.jpg",
+        "brightness": 219.9474649234694
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0011.jpg",
+        "brightness": 222.76223692602042
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0012.jpg",
+        "brightness": 219.86300223214286
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0013.jpg",
+        "brightness": 214.3125597895408
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0014.jpg",
+        "brightness": 221.2528698979592
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0015.jpg",
+        "brightness": 201.0079719387755
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0016.jpg",
+        "brightness": 225.65975765306123
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0017.jpg",
+        "brightness": 204.90318080357142
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0018.jpg",
+        "brightness": 211.6007453762755
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\beef\\beef_0019.jpg",
+        "brightness": 206.0392617984694
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0000.jpg",
+        "brightness": 232.71717554209184
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0001.jpg",
+        "brightness": 217.3958665497449
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0002.jpg",
+        "brightness": 211.21097735969389
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0003.jpg",
+        "brightness": 233.1105110012755
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0004.jpg",
+        "brightness": 224.60036670918367
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0005.jpg",
+        "brightness": 226.56714365433675
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0006.jpg",
+        "brightness": 227.9901745854592
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0007.jpg",
+        "brightness": 219.15929926658163
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0008.jpg",
+        "brightness": 234.69772401147958
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0009.jpg",
+        "brightness": 232.09434789540816
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0010.jpg",
+        "brightness": 234.37621572066325
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0011.jpg",
+        "brightness": 234.64538823341837
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0012.jpg",
+        "brightness": 237.92329001913265
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0013.jpg",
+        "brightness": 229.98060825892858
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0014.jpg",
+        "brightness": 225.67619977678572
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0015.jpg",
+        "brightness": 219.1771165497449
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0016.jpg",
+        "brightness": 228.3840880102041
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0017.jpg",
+        "brightness": 233.2157605229592
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0018.jpg",
+        "brightness": 219.8770129145408
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\cheese\\cheese_0019.jpg",
+        "brightness": 228.21187420280611
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0000.jpg",
+        "brightness": 243.68253746811226
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0001.jpg",
+        "brightness": 245.15395806760205
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0002.jpg",
+        "brightness": 238.19672751913265
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0003.jpg",
+        "brightness": 244.10801977040816
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0004.jpg",
+        "brightness": 240.1980428890306
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0005.jpg",
+        "brightness": 239.37444196428572
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0006.jpg",
+        "brightness": 245.24822624362244
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0007.jpg",
+        "brightness": 242.14006696428572
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0008.jpg",
+        "brightness": 244.28952088647958
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0009.jpg",
+        "brightness": 237.37454161352042
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0010.jpg",
+        "brightness": 246.57204639668367
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0011.jpg",
+        "brightness": 244.07222576530611
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0012.jpg",
+        "brightness": 237.8391262755102
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0013.jpg",
+        "brightness": 244.71117665816325
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0014.jpg",
+        "brightness": 240.77481265943877
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0015.jpg",
+        "brightness": 245.2405333227041
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0016.jpg",
+        "brightness": 243.8810188137755
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0017.jpg",
+        "brightness": 242.74808673469389
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0018.jpg",
+        "brightness": 245.7822265625
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\chicken\\chicken_0019.jpg",
+        "brightness": 245.36896125637756
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0000.jpg",
+        "brightness": 249.35794005102042
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0001.jpg",
+        "brightness": 250.0888671875
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0002.jpg",
+        "brightness": 248.14058514030611
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0003.jpg",
+        "brightness": 249.0030293367347
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0004.jpg",
+        "brightness": 249.8234414859694
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0005.jpg",
+        "brightness": 248.86280293367346
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0006.jpg",
+        "brightness": 246.6482382015306
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0007.jpg",
+        "brightness": 248.20358338647958
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0008.jpg",
+        "brightness": 250.12286750637756
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0009.jpg",
+        "brightness": 249.05137914540816
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0010.jpg",
+        "brightness": 246.02299904336735
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0011.jpg",
+        "brightness": 249.4733737244898
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0012.jpg",
+        "brightness": 248.95645328443877
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0013.jpg",
+        "brightness": 249.9932238520408
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0014.jpg",
+        "brightness": 248.38865194515307
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0015.jpg",
+        "brightness": 249.6500916772959
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0016.jpg",
+        "brightness": 248.1809630102041
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0017.jpg",
+        "brightness": 249.47004544005102
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0018.jpg",
+        "brightness": 248.0260682397959
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\eggs\\eggs_0019.jpg",
+        "brightness": 245.42781409438774
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0000.jpg",
+        "brightness": 233.09887197066325
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0001.jpg",
+        "brightness": 234.23511240433675
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0002.jpg",
+        "brightness": 237.85060586734693
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0003.jpg",
+        "brightness": 236.6945352359694
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0004.jpg",
+        "brightness": 236.44148596938774
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0005.jpg",
+        "brightness": 234.89331552933675
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0006.jpg",
+        "brightness": 234.8195352359694
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0007.jpg",
+        "brightness": 242.0134725765306
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0008.jpg",
+        "brightness": 237.80100047831633
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0009.jpg",
+        "brightness": 236.92325015943877
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0010.jpg",
+        "brightness": 239.82059151785714
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0011.jpg",
+        "brightness": 232.24467873086735
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0012.jpg",
+        "brightness": 241.48963647959184
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0013.jpg",
+        "brightness": 234.50213249362244
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0014.jpg",
+        "brightness": 237.51327327806123
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0015.jpg",
+        "brightness": 236.37631536989795
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0016.jpg",
+        "brightness": 230.97829639668367
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0017.jpg",
+        "brightness": 243.87844786352042
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0018.jpg",
+        "brightness": 236.68845663265307
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fish\\fish_0019.jpg",
+        "brightness": 236.77499202806123
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0000.jpg",
+        "brightness": 209.10160235969389
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0002.jpg",
+        "brightness": 217.81130420918367
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0003.jpg",
+        "brightness": 232.72590481505102
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0004.jpg",
+        "brightness": 213.55219626913265
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0005.jpg",
+        "brightness": 228.05119977678572
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0006.jpg",
+        "brightness": 224.2431042729592
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0008.jpg",
+        "brightness": 207.0553651147959
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0009.jpg",
+        "brightness": 210.3160475127551
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0010.jpg",
+        "brightness": 206.73503268494898
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0011.jpg",
+        "brightness": 214.0729830994898
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0012.jpg",
+        "brightness": 215.82944036989795
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0013.jpg",
+        "brightness": 230.6602160395408
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\fruits\\fruits_0019.jpg",
+        "brightness": 205.6705397002551
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0000.jpg",
+        "brightness": 250.3720703125
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0001.jpg",
+        "brightness": 250.99079241071428
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0002.jpg",
+        "brightness": 250.87651466836735
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0003.jpg",
+        "brightness": 250.1867227359694
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0004.jpg",
+        "brightness": 250.91515864158163
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0005.jpg",
+        "brightness": 250.72706074617346
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0006.jpg",
+        "brightness": 250.59659996811226
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0007.jpg",
+        "brightness": 251.07593271683675
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0008.jpg",
+        "brightness": 250.833984375
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0009.jpg",
+        "brightness": 250.0403380102041
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0010.jpg",
+        "brightness": 251.1845703125
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0011.jpg",
+        "brightness": 250.1868821747449
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0012.jpg",
+        "brightness": 250.3924186862245
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0013.jpg",
+        "brightness": 250.6330117984694
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0014.jpg",
+        "brightness": 250.68496890943877
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0015.jpg",
+        "brightness": 249.91741071428572
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0016.jpg",
+        "brightness": 250.57156808035714
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0017.jpg",
+        "brightness": 250.3669284119898
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0018.jpg",
+        "brightness": 250.78985969387756
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\milk\\milk_0019.jpg",
+        "brightness": 250.76415019132654
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0000.jpg",
+        "brightness": 218.5457389987245
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0001.jpg",
+        "brightness": 213.0661471619898
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0002.jpg",
+        "brightness": 216.18781887755102
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0003.jpg",
+        "brightness": 206.84012276785714
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0004.jpg",
+        "brightness": 226.01608338647958
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0006.jpg",
+        "brightness": 209.53051259566325
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0007.jpg",
+        "brightness": 207.7366270727041
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0008.jpg",
+        "brightness": 223.22600446428572
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0009.jpg",
+        "brightness": 209.58683434311226
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0011.jpg",
+        "brightness": 208.65371890943877
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0013.jpg",
+        "brightness": 204.90935905612244
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0014.jpg",
+        "brightness": 225.01468829719389
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0015.jpg",
+        "brightness": 228.99808673469389
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0016.jpg",
+        "brightness": 221.49663185586735
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0017.jpg",
+        "brightness": 227.3447863520408
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0018.jpg",
+        "brightness": 211.89620535714286
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\vegetables\\vegetables_0019.jpg",
+        "brightness": 217.27345742984693
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0000.jpg",
+        "brightness": 249.4990234375
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0001.jpg",
+        "brightness": 251.06453284438774
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0002.jpg",
+        "brightness": 251.0983338647959
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0003.jpg",
+        "brightness": 251.00161431760205
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0004.jpg",
+        "brightness": 251.0381855867347
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0005.jpg",
+        "brightness": 251.03166852678572
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0006.jpg",
+        "brightness": 249.60473134566325
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0007.jpg",
+        "brightness": 246.90481505102042
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0008.jpg",
+        "brightness": 249.00476323341837
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0009.jpg",
+        "brightness": 249.0953443877551
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0010.jpg",
+        "brightness": 250.8228834502551
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0011.jpg",
+        "brightness": 251.13442681760205
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0012.jpg",
+        "brightness": 248.34968909438774
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0013.jpg",
+        "brightness": 251.0479512117347
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0014.jpg",
+        "brightness": 248.6735690369898
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0015.jpg",
+        "brightness": 248.68484933035714
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0016.jpg",
+        "brightness": 250.55173788265307
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0017.jpg",
+        "brightness": 247.6637635522959
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0018.jpg",
+        "brightness": 248.47159996811226
+      },
+      {
+        "file": "ai_model\\sample_dataset\\val\\yogurt\\yogurt_0019.jpg",
+        "brightness": 251.08071588010205
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0000.jpg",
+        "brightness": 223.09901147959184
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0001.jpg",
+        "brightness": 224.4864277742347
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0002.jpg",
+        "brightness": 226.53176817602042
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0004.jpg",
+        "brightness": 210.01929209183675
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0005.jpg",
+        "brightness": 211.72777822066325
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0006.jpg",
+        "brightness": 209.69672751913265
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0008.jpg",
+        "brightness": 223.13833306760205
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0009.jpg",
+        "brightness": 201.14313616071428
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0010.jpg",
+        "brightness": 212.2630540497449
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0011.jpg",
+        "brightness": 202.16260762117346
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0012.jpg",
+        "brightness": 226.55923150510205
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0013.jpg",
+        "brightness": 230.76193797831633
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0014.jpg",
+        "brightness": 232.0501634247449
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0015.jpg",
+        "brightness": 210.84319196428572
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0016.jpg",
+        "brightness": 212.26897321428572
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0018.jpg",
+        "brightness": 223.96564094387756
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\beef\\beef_0019.jpg",
+        "brightness": 200.92273198341837
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0000.jpg",
+        "brightness": 226.96245216836735
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0001.jpg",
+        "brightness": 229.4091198979592
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0002.jpg",
+        "brightness": 239.6543566645408
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0003.jpg",
+        "brightness": 227.2273397640306
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0004.jpg",
+        "brightness": 215.4237284757653
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0005.jpg",
+        "brightness": 217.51813616071428
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0006.jpg",
+        "brightness": 236.32497608418367
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0007.jpg",
+        "brightness": 227.93959263392858
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0008.jpg",
+        "brightness": 235.26749840561226
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0009.jpg",
+        "brightness": 238.29227120535714
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0010.jpg",
+        "brightness": 228.3410196109694
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0011.jpg",
+        "brightness": 236.61499521683675
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0012.jpg",
+        "brightness": 235.6716757015306
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0013.jpg",
+        "brightness": 232.92908960459184
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0014.jpg",
+        "brightness": 228.70758928571428
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0015.jpg",
+        "brightness": 233.2141262755102
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0016.jpg",
+        "brightness": 230.9612962372449
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0017.jpg",
+        "brightness": 229.5891661352041
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0018.jpg",
+        "brightness": 225.7383808992347
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\cheese\\cheese_0019.jpg",
+        "brightness": 230.80544483418367
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0000.jpg",
+        "brightness": 244.42233338647958
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0001.jpg",
+        "brightness": 241.60987324617346
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0002.jpg",
+        "brightness": 239.85034677933675
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0003.jpg",
+        "brightness": 244.87543845663265
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0004.jpg",
+        "brightness": 242.5823899872449
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0005.jpg",
+        "brightness": 242.09811463647958
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0006.jpg",
+        "brightness": 242.7049784757653
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0007.jpg",
+        "brightness": 241.9845344387755
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0008.jpg",
+        "brightness": 237.49647241709184
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0009.jpg",
+        "brightness": 237.97265625
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0010.jpg",
+        "brightness": 243.02758290816325
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0011.jpg",
+        "brightness": 243.4080038265306
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0012.jpg",
+        "brightness": 243.89841757015307
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0013.jpg",
+        "brightness": 241.38649952168367
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0014.jpg",
+        "brightness": 245.97644292091837
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0015.jpg",
+        "brightness": 246.35837850765307
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0016.jpg",
+        "brightness": 240.44722576530611
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0017.jpg",
+        "brightness": 241.00528140943877
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0018.jpg",
+        "brightness": 242.59464684311226
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\chicken\\chicken_0019.jpg",
+        "brightness": 241.64959343112244
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0000.jpg",
+        "brightness": 249.2871691645408
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0001.jpg",
+        "brightness": 248.76010443239795
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0002.jpg",
+        "brightness": 248.798828125
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0003.jpg",
+        "brightness": 249.06391501913265
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0004.jpg",
+        "brightness": 247.11756616709184
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0005.jpg",
+        "brightness": 250.29257015306123
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0006.jpg",
+        "brightness": 247.00330835459184
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0007.jpg",
+        "brightness": 248.5068957270408
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0008.jpg",
+        "brightness": 249.47777822066325
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0009.jpg",
+        "brightness": 248.5094666772959
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0010.jpg",
+        "brightness": 248.74535634566325
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0011.jpg",
+        "brightness": 250.0390027104592
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0012.jpg",
+        "brightness": 248.7267617984694
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0013.jpg",
+        "brightness": 248.45065369897958
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0014.jpg",
+        "brightness": 248.7304089604592
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0015.jpg",
+        "brightness": 248.89704241071428
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0016.jpg",
+        "brightness": 248.62316645408163
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0017.jpg",
+        "brightness": 247.95095264668367
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0018.jpg",
+        "brightness": 248.8375318877551
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\eggs\\eggs_0019.jpg",
+        "brightness": 246.06521045918367
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0000.jpg",
+        "brightness": 235.42251275510205
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0001.jpg",
+        "brightness": 244.8918606505102
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0002.jpg",
+        "brightness": 242.29623724489795
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0003.jpg",
+        "brightness": 241.6631855867347
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0004.jpg",
+        "brightness": 240.66408242984693
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0005.jpg",
+        "brightness": 233.86144770408163
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0006.jpg",
+        "brightness": 237.7318040497449
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0007.jpg",
+        "brightness": 229.31020806760205
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0008.jpg",
+        "brightness": 231.33492107780611
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0009.jpg",
+        "brightness": 239.81008848852042
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0010.jpg",
+        "brightness": 243.84671954719389
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0011.jpg",
+        "brightness": 243.37990274234693
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0012.jpg",
+        "brightness": 242.72917330994898
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0013.jpg",
+        "brightness": 234.82312260841837
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0014.jpg",
+        "brightness": 237.66262755102042
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0015.jpg",
+        "brightness": 238.0485690369898
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0016.jpg",
+        "brightness": 232.8515625
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0017.jpg",
+        "brightness": 238.74483816964286
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0018.jpg",
+        "brightness": 237.22000558035714
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fish\\fish_0019.jpg",
+        "brightness": 232.9656608737245
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0000.jpg",
+        "brightness": 201.7247090242347
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0002.jpg",
+        "brightness": 221.38155691964286
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0003.jpg",
+        "brightness": 220.1452487244898
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0004.jpg",
+        "brightness": 229.7262635522959
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0005.jpg",
+        "brightness": 215.19764429209184
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0006.jpg",
+        "brightness": 220.3944316007653
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0007.jpg",
+        "brightness": 220.4431600765306
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0008.jpg",
+        "brightness": 223.17683753188774
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0009.jpg",
+        "brightness": 227.3636399872449
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0010.jpg",
+        "brightness": 205.4962930484694
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0012.jpg",
+        "brightness": 216.39407286352042
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0014.jpg",
+        "brightness": 216.83334661989795
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0015.jpg",
+        "brightness": 224.11100924744898
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0016.jpg",
+        "brightness": 211.97720025510205
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0017.jpg",
+        "brightness": 231.9208984375
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0018.jpg",
+        "brightness": 202.42297114158163
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\fruits\\fruits_0019.jpg",
+        "brightness": 212.90714684311226
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0000.jpg",
+        "brightness": 250.90977758290816
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0001.jpg",
+        "brightness": 250.1466836734694
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0002.jpg",
+        "brightness": 250.3509446747449
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0003.jpg",
+        "brightness": 251.0446229272959
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0004.jpg",
+        "brightness": 249.95535714285714
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0005.jpg",
+        "brightness": 250.9445352359694
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0006.jpg",
+        "brightness": 249.52096619897958
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0007.jpg",
+        "brightness": 250.71223294005102
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0008.jpg",
+        "brightness": 250.2474290497449
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0009.jpg",
+        "brightness": 250.94308035714286
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0010.jpg",
+        "brightness": 251.17944834183675
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0011.jpg",
+        "brightness": 250.95583545918367
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0012.jpg",
+        "brightness": 250.55691964285714
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0013.jpg",
+        "brightness": 249.99890385841837
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0014.jpg",
+        "brightness": 250.26801658163265
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0015.jpg",
+        "brightness": 250.2614198022959
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0016.jpg",
+        "brightness": 250.76851482780611
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0017.jpg",
+        "brightness": 250.47658242984693
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0018.jpg",
+        "brightness": 251.15591119260205
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\milk\\milk_0019.jpg",
+        "brightness": 249.97953204719389
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0001.jpg",
+        "brightness": 229.0100247130102
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0002.jpg",
+        "brightness": 205.87743144132654
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0004.jpg",
+        "brightness": 223.89367426658163
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0005.jpg",
+        "brightness": 203.90441645408163
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0006.jpg",
+        "brightness": 205.06022799744898
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0009.jpg",
+        "brightness": 228.07292330994898
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0010.jpg",
+        "brightness": 223.79145408163265
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0011.jpg",
+        "brightness": 228.74176897321428
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0012.jpg",
+        "brightness": 206.77706473214286
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0013.jpg",
+        "brightness": 210.3767936862245
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0014.jpg",
+        "brightness": 213.26903300382654
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0015.jpg",
+        "brightness": 229.77933673469389
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0016.jpg",
+        "brightness": 200.41653380102042
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0017.jpg",
+        "brightness": 217.17596061862244
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0018.jpg",
+        "brightness": 224.65104830994898
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\vegetables\\vegetables_0019.jpg",
+        "brightness": 205.70535714285714
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0000.jpg",
+        "brightness": 249.47482860331633
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0001.jpg",
+        "brightness": 251.22482860331633
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0002.jpg",
+        "brightness": 251.14502949617346
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0003.jpg",
+        "brightness": 249.7590481505102
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0004.jpg",
+        "brightness": 250.92113759566325
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0005.jpg",
+        "brightness": 251.21452487244898
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0006.jpg",
+        "brightness": 250.90559231505102
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0007.jpg",
+        "brightness": 248.85522959183675
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0008.jpg",
+        "brightness": 250.8847058354592
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0009.jpg",
+        "brightness": 247.23001036352042
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0010.jpg",
+        "brightness": 251.09620137117346
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0011.jpg",
+        "brightness": 251.11013233418367
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0012.jpg",
+        "brightness": 251.0906608737245
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0013.jpg",
+        "brightness": 251.24406090561226
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0014.jpg",
+        "brightness": 248.36577248086735
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0015.jpg",
+        "brightness": 248.64261798469389
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0016.jpg",
+        "brightness": 248.04478236607142
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0017.jpg",
+        "brightness": 247.78946109693877
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0018.jpg",
+        "brightness": 250.9407286352041
+      },
+      {
+        "file": "ai_model\\sample_dataset\\test\\yogurt\\yogurt_0019.jpg",
+        "brightness": 249.12015704719389
+      }
+    ],
+    "total_checked": 540,
+    "quality_score": 0
+  },
+  "distribution_analysis": {
+    "missing_categories": [],
+    "insufficient_categories": [],
+    "imbalanced_distribution": false,
+    "coverage_score": 100.0
+  },
+  "recommendations": [
+    "图像质量需要改善，建议检查分辨率、清晰度和亮度",
+    "数据集规模较小，建议增加更多样本以提高模型性能"
+  ]
+}

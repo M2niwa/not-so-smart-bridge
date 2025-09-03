@@ -1,0 +1,96 @@
+# 9格间智能冰箱系统 - Python依赖包
+# 版本: 1.0.0
+# 更新时间: 2024年
+
+# === 核心依赖 ===
+# 图像处理和计算机视觉
+opencv-python==4.8.1.78
+# 数值计算 (固定版本以避免兼容性问题)
+numpy==1.24.3
+# 图像处理
+Pillow==10.0.0
+# 数据处理和分析
+pandas==2.0.3
+
+# === 机器学习和AI ===
+# 机器学习库
+scikit-learn==1.3.0
+# 深度学习框架 (固定版本以确保稳定性)
+tensorflow==2.13.0
+# 注意：现代TensorFlow已内置GPU支持，无需单独安装tensorflow-gpu
+# 确保安装兼容的NVIDIA驱动、CUDA和cuDNN
+# 科学计算
+scipy==1.11.1
+# 深度学习工具包 (TensorFlow 2.13已包含Keras，无需单独安装)
+# keras>=2.13.0
+
+# === 系统和开发工具 ===
+# 测试框架
+pytest==7.4.0
+# 测试覆盖率
+pytest-cov==4.1.0
+# 代码格式化
+black==23.7.0
+# 代码检查
+flake8==6.0.0
+# 类型检查
+mypy==1.5.0
+
+# === 日志和配置 ===
+# YAML配置文件解析
+pyyaml==6.0.1
+# 环境变量管理
+python-dotenv==1.0.0
+# 日志增强
+loguru==0.7.0
+
+# === 网络和通信 ===
+# HTTP客户端
+requests==2.31.0
+# 异步HTTP
+aiohttp==3.8.5
+# WebSocket
+websockets==11.0.3
+
+# === 数据存储 ===
+# SQLite数据库 (Python标准库，无需安装)
+# JSON处理
+jsonschema==4.19.0
+
+# === 可选：硬件接口 ===
+# 树莓派GPIO控制 (Windows不支持)
+# RPi.GPIO>=0.7.0  
+# 温度传感器 (Windows不支持)
+# w1thermsensor>=2.0.0
+# 串口通信
+pyserial==3.5
+
+# === 性能监控 ===
+# 性能分析 (Python标准库，无需安装)
+# 内存监控
+psutil==5.9.5
+
+# === 文档生成 ===
+# 文档生成
+sphinx==7.1.2
+# Markdown支持
+markdown==3.5.0
+
+# === 新增依赖项 ===
+# GUI界面 (用于反馈收集器)
+tkinter-tooltip>=2.0.0
+# 数据可视化
+matplotlib>=3.7.0
+seaborn>=0.12.0
+# 模型序列化
+pickle-mixin>=1.0.0
+# 数据验证
+pydantic>=2.0.0
+# 异步支持
+asyncio-throttle>=1.0.0
+# 文件系统操作
+aiofiles>=23.0.0
+# 时间处理
+python-dateutil>=2.8.0
+# 进度条显示
+tqdm>=4.65.0

@@ -1,0 +1,38 @@
+[
+  {
+    "architecture": "mobilenet_v2",
+    "total_params": 3737798,
+    "trainable_params": 1478022,
+    "estimated_h5_size_mb": 14.258567810058594,
+    "estimated_tflite_size_mb": 3.5646419525146484,
+    "estimated_flops_m": 1.868899,
+    "build_time_sec": 1.592099666595459,
+    "speed_rating": 4,
+    "accuracy_rating": 4,
+    "efficiency_score": 4.2805951525470345
+  },
+  {
+    "architecture": "mobilenet_v2_lite",
+    "total_params": 2861878,
+    "trainable_params": 1478022,
+    "estimated_h5_size_mb": 10.917198181152344,
+    "estimated_tflite_size_mb": 2.729299545288086,
+    "estimated_flops_m": 1.430939,
+    "build_time_sec": 1.4695446491241455,
+    "speed_rating": 5,
+    "accuracy_rating": 3,
+    "efficiency_score": 5.24131357101875
+  },
+  {
+    "architecture": "resnet50",
+    "total_params": 25853958,
+    "trainable_params": 2264454,
+    "estimated_h5_size_mb": 98.6250228881836,
+    "estimated_tflite_size_mb": 24.6562557220459,
+    "estimated_flops_m": 31.024749599999996,
+    "build_time_sec": 2.718332529067993,
+    "speed_rating": 1,
+    "accuracy_rating": 4,
+    "efficiency_score": 0.1547151890631214
+  }
+]

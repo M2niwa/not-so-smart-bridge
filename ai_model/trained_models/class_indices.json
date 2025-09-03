@@ -1,0 +1,8 @@
+{
+  "cheese": 0,
+  "chicken": 1,
+  "dairy": 2,
+  "eggs": 3,
+  "fish": 4,
+  "fruits": 5
+}

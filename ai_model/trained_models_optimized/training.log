@@ -1,0 +1,48 @@
+2025-09-03 03:24:46,300 - __main__ - INFO - ============================================================
+2025-09-03 03:24:46,301 - __main__ - INFO - 开始优化的AI模型训练流程
+2025-09-03 03:24:46,302 - __main__ - INFO - ============================================================
+2025-09-03 03:24:46,303 - __main__ - INFO - 训练参数: {'data_dir': 'ai_model\\dataset', 'output_dir': 'ai_model/trained_models_optimized', 'model_type': 'mobilenet', 'image_size': 224, 'epochs': 25, 'batch_size': 16, 'fine_tune': True, 'fine_tune_epochs': 10, 'plot_history': True, 'evaluate': True, 'log_level': 'INFO'}
+2025-09-03 03:24:46,303 - __main__ - INFO - === 步骤1: 数据质量检查 ===
+2025-09-03 03:24:46,332 - __main__ - INFO - === 数据集质量检查 ===
+2025-09-03 03:24:46,333 - __main__ - INFO - dairy: 训练60 + 验证20 + 测试20 = 100
+2025-09-03 03:24:46,334 - __main__ - INFO - eggs: 训练60 + 验证20 + 测试20 = 100
+2025-09-03 03:24:46,334 - __main__ - INFO - fish: 训练120 + 验证40 + 测试40 = 200
+2025-09-03 03:24:46,335 - __main__ - INFO - cheese: 训练60 + 验证20 + 测试20 = 100
+2025-09-03 03:24:46,335 - __main__ - INFO - chicken: 训练60 + 验证20 + 测试20 = 100
+2025-09-03 03:24:46,335 - __main__ - INFO - fruits: 训练60 + 验证20 + 测试20 = 100
+2025-09-03 03:24:46,336 - __main__ - INFO - 总图像数: 700
+2025-09-03 03:24:46,336 - __main__ - INFO - 类别数: 6
+2025-09-03 03:24:46,337 - __main__ - INFO - === 步骤2: 创建数据生成器 ===
+2025-09-03 03:24:46,448 - __main__ - INFO - 数据生成器创建完成:
+2025-09-03 03:24:46,449 - __main__ - INFO -   训练集: 420 样本
+2025-09-03 03:24:46,449 - __main__ - INFO -   验证集: 140 样本
+2025-09-03 03:24:46,450 - __main__ - INFO -   测试集: 140 样本
+2025-09-03 03:24:46,451 - __main__ - INFO -   类别数: 6
+2025-09-03 03:24:46,452 - __main__ - INFO - === 步骤3: 模型构建和训练 ===
+2025-09-03 03:24:48,130 - src.ai.training.food_classifier_trainer - INFO - 模型构建完成，类型: mobilenet
+2025-09-03 03:24:48,130 - __main__ - INFO - 模型架构: mobilenet
+2025-09-03 03:24:48,133 - __main__ - INFO - 参数数量: 2,621,126
+2025-09-03 03:25:16,782 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-03 03:25:33,803 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-03 03:25:50,116 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-03 03:26:06,094 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-03 03:26:36,519 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-03 03:26:51,770 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-03 03:27:36,694 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-03 03:27:52,140 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-03 03:29:07,354 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-03 03:29:37,476 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-03 03:30:22,915 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-03 03:31:22,667 - src.ai.training.food_classifier_trainer - INFO - 模型训练完成
+2025-09-03 03:31:22,668 - __main__ - INFO - 训练完成，耗时: 394.54 秒
+2025-09-03 03:31:22,668 - __main__ - INFO - === 步骤4: 模型微调 ===
+2025-09-03 03:31:22,669 - src.ai.training.food_classifier_trainer - ERROR - 模型微调失败: 'InputLayer' object has no attribute 'layers'
+2025-09-03 03:31:22,669 - __main__ - WARNING - 模型微调失败
+2025-09-03 03:31:22,669 - __main__ - INFO - === 步骤5: 保存模型 ===
+2025-09-03 03:31:22,670 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-03 03:31:23,123 - src.ai.training.food_classifier_trainer - INFO - 模型已保存到: ai_model\trained_models_optimized\food_classifier_mobilenet_optimized.h5
+2025-09-03 03:31:25,192 - absl - INFO - Function `function` contains input name(s) resource with unsupported characters which will be renamed to functional_1_dense_2_1_biasadd_readvariableop_resource in the SavedModel.
+2025-09-03 03:31:25,410 - absl - INFO - Function `function` contains input name(s) resource with unsupported characters which will be renamed to functional_1_dense_2_1_biasadd_readvariableop_resource in the SavedModel.
+2025-09-03 03:31:31,696 - tensorflow - INFO - Assets written to: C:\Users\79472\AppData\Local\Temp\tmphq22_93a\assets
+2025-09-03 03:31:38,555 - src.ai.training.food_classifier_trainer - INFO - TFLite模型已导出到: ai_model\trained_models_optimized\food_classifier_mobilenet_optimized.tflite
+2025-09-03 03:31:38,563 - __main__ - INFO - === 步骤6: 绘制训练历史 ===
