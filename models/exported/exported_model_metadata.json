@@ -1,0 +1,35 @@
+{
+  "food_features": [
+    "optimal_temp",
+    "expiry_days",
+    "category_meat",
+    "category_vegetable",
+    "category_fruit",
+    "category_dairy"
+  ],
+  "zone_features": [
+    "zone_id",
+    "zone_row",
+    "zone_col",
+    "adjacent_count",
+    "is_corner",
+    "is_edge"
+  ],
+  "output_features": [
+    "layout_score",
+    "position_quality"
+  ],
+  "model_params": 0,
+  "mode": "simulation",
+  "input_shape": {
+    "food_input": [
+      6
+    ],
+    "zone_input": [
+      6
+    ]
+  },
+  "output_shape": [
+    2
+  ]
+}

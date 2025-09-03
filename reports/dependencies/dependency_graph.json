@@ -1,0 +1,165 @@
+{
+  "nodes": [
+    {
+      "id": "main",
+      "label": "main",
+      "file_path": "main.py"
+    },
+    {
+      "id": "ai.inference.detector",
+      "label": "ai.inference.detector",
+      "file_path": "ai\\inference\\detector.py"
+    },
+    {
+      "id": "ai.inference.food_layout_inference",
+      "label": "ai.inference.food_layout_inference",
+      "file_path": "ai\\inference\\food_layout_inference.py"
+    },
+    {
+      "id": "ai.inference.__init__",
+      "label": "ai.inference.__init__",
+      "file_path": "ai\\inference\\__init__.py"
+    },
+    {
+      "id": "ai.self_learning.adaptive_network",
+      "label": "ai.self_learning.adaptive_network",
+      "file_path": "ai\\self_learning\\adaptive_network.py"
+    },
+    {
+      "id": "ai.self_learning.example_usage",
+      "label": "ai.self_learning.example_usage",
+      "file_path": "ai\\self_learning\\example_usage.py"
+    },
+    {
+      "id": "ai.self_learning.feedback_analyzer",
+      "label": "ai.self_learning.feedback_analyzer",
+      "file_path": "ai\\self_learning\\feedback_analyzer.py"
+    },
+    {
+      "id": "ai.self_learning.feedback_collector",
+      "label": "ai.self_learning.feedback_collector",
+      "file_path": "ai\\self_learning\\feedback_collector.py"
+    },
+    {
+      "id": "ai.self_learning.layout_optimizer",
+      "label": "ai.self_learning.layout_optimizer",
+      "file_path": "ai\\self_learning\\layout_optimizer.py"
+    },
+    {
+      "id": "ai.self_learning.performance_monitor",
+      "label": "ai.self_learning.performance_monitor",
+      "file_path": "ai\\self_learning\\performance_monitor.py"
+    },
+    {
+      "id": "ai.self_learning.self_learning_controller",
+      "label": "ai.self_learning.self_learning_controller",
+      "file_path": "ai\\self_learning\\self_learning_controller.py"
+    },
+    {
+      "id": "ai.self_learning.temperature_optimizer",
+      "label": "ai.self_learning.temperature_optimizer",
+      "file_path": "ai\\self_learning\\temperature_optimizer.py"
+    },
+    {
+      "id": "ai.self_learning.__init__",
+      "label": "ai.self_learning.__init__",
+      "file_path": "ai\\self_learning\\__init__.py"
+    },
+    {
+      "id": "ai.self_learning.models.feedback_model",
+      "label": "ai.self_learning.models.feedback_model",
+      "file_path": "ai\\self_learning\\models\\feedback_model.py"
+    },
+    {
+      "id": "ai.self_learning.models.layout_model",
+      "label": "ai.self_learning.models.layout_model",
+      "file_path": "ai\\self_learning\\models\\layout_model.py"
+    },
+    {
+      "id": "ai.self_learning.models.temperature_model",
+      "label": "ai.self_learning.models.temperature_model",
+      "file_path": "ai\\self_learning\\models\\temperature_model.py"
+    },
+    {
+      "id": "ai.self_learning.models.__init__",
+      "label": "ai.self_learning.models.__init__",
+      "file_path": "ai\\self_learning\\models\\__init__.py"
+    },
+    {
+      "id": "ai.training.data_preprocessor",
+      "label": "ai.training.data_preprocessor",
+      "file_path": "ai\\training\\data_preprocessor.py"
+    },
+    {
+      "id": "ai.training.example_usage",
+      "label": "ai.training.example_usage",
+      "file_path": "ai\\training\\example_usage.py"
+    },
+    {
+      "id": "ai.training.food_classifier_trainer",
+      "label": "ai.training.food_classifier_trainer",
+      "file_path": "ai\\training\\food_classifier_trainer.py"
+    },
+    {
+      "id": "ai.training.food_layout_model",
+      "label": "ai.training.food_layout_model",
+      "file_path": "ai\\training\\food_layout_model.py"
+    },
+    {
+      "id": "ai.training.model_evaluator",
+      "label": "ai.training.model_evaluator",
+      "file_path": "ai\\training\\model_evaluator.py"
+    },
+    {
+      "id": "ai.training.model_trainer",
+      "label": "ai.training.model_trainer",
+      "file_path": "ai\\training\\model_trainer.py"
+    },
+    {
+      "id": "ai.training.prepare_training_data",
+      "label": "ai.training.prepare_training_data",
+      "file_path": "ai\\training\\prepare_training_data.py"
+    },
+    {
+      "id": "ai.training.train_food_classifier",
+      "label": "ai.training.train_food_classifier",
+      "file_path": "ai\\training\\train_food_classifier.py"
+    },
+    {
+      "id": "core.async_image_processor",
+      "label": "core.async_image_processor",
+      "file_path": "core\\async_image_processor.py"
+    },
+    {
+      "id": "core.config",
+      "label": "core.config",
+      "file_path": "core\\config.py"
+    },
+    {
+      "id": "core.firmware_interface",
+      "label": "core.firmware_interface",
+      "file_path": "core\\firmware_interface.py"
+    },
+    {
+      "id": "core.food_layout_optimizer",
+      "label": "core.food_layout_optimizer",
+      "file_path": "core\\food_layout_optimizer.py"
+    },
+    {
+      "id": "core.main",
+      "label": "core.main",
+      "file_path": "core\\main.py"
+    },
+    {
+      "id": "hardware.hardware_controller",
+      "label": "hardware.hardware_controller",
+      "file_path": "hardware\\hardware_controller.py"
+    },
+    {
+      "id": "hardware.temperature_optimizer",
+      "label": "hardware.temperature_optimizer",
+      "file_path": "hardware\\temperature_optimizer.py"
+    }
+  ],
+  "edges": []
+}

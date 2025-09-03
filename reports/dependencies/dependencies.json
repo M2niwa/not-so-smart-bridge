@@ -1,0 +1,413 @@
+{
+  "main": {
+    "file_path": "main.py",
+    "internal_deps": [
+      "src.core.main"
+    ],
+    "external_deps": [
+      "sys",
+      "pathlib"
+    ]
+  },
+  "ai.inference.detector": {
+    "file_path": "ai\\inference\\detector.py",
+    "internal_deps": [],
+    "external_deps": [
+      "json",
+      "cv2",
+      "pathlib",
+      "numpy",
+      "logging"
+    ]
+  },
+  "ai.inference.food_layout_inference": {
+    "file_path": "ai\\inference\\food_layout_inference.py",
+    "internal_deps": [],
+    "external_deps": [
+      "json",
+      "os",
+      "tensorflow",
+      "typing",
+      "time",
+      "itertools",
+      "numpy",
+      "logging"
+    ]
+  },
+  "ai.inference.__init__": {
+    "file_path": "ai\\inference\\__init__.py",
+    "internal_deps": [],
+    "external_deps": [
+      "detector"
+    ]
+  },
+  "ai.self_learning.adaptive_network": {
+    "file_path": "ai\\self_learning\\adaptive_network.py",
+    "internal_deps": [
+      "src.core.config",
+      "src.core.food_layout_optimizer",
+      "src.hardware.hardware_controller"
+    ],
+    "external_deps": [
+      "json",
+      "models",
+      "datetime",
+      "typing",
+      "pathlib",
+      "numpy",
+      "logging"
+    ]
+  },
+  "ai.self_learning.example_usage": {
+    "file_path": "ai\\self_learning\\example_usage.py",
+    "internal_deps": [
+      "src.core.config",
+      "src.ai.self_learning.self_learning_controller"
+    ],
+    "external_deps": [
+      "threading",
+      "time",
+      "datetime",
+      "logging"
+    ]
+  },
+  "ai.self_learning.feedback_analyzer": {
+    "file_path": "ai\\self_learning\\feedback_analyzer.py",
+    "internal_deps": [],
+    "external_deps": [
+      "typing",
+      "adaptive_network",
+      "datetime",
+      "logging"
+    ]
+  },
+  "ai.self_learning.feedback_collector": {
+    "file_path": "ai\\self_learning\\feedback_collector.py",
+    "internal_deps": [
+      "src.core.config",
+      "src.hardware.hardware_controller"
+    ],
+    "external_deps": [
+      "json",
+      "datetime",
+      "tkinter",
+      "typing",
+      "pathlib",
+      "adaptive_network",
+      "logging"
+    ]
+  },
+  "ai.self_learning.layout_optimizer": {
+    "file_path": "ai\\self_learning\\layout_optimizer.py",
+    "internal_deps": [
+      "src.hardware.hardware_controller"
+    ],
+    "external_deps": [
+      "typing",
+      "adaptive_network",
+      "datetime",
+      "logging"
+    ]
+  },
+  "ai.self_learning.performance_monitor": {
+    "file_path": "ai\\self_learning\\performance_monitor.py",
+    "internal_deps": [],
+    "external_deps": [
+      "json",
+      "datetime",
+      "typing",
+      "pathlib",
+      "logging"
+    ]
+  },
+  "ai.self_learning.self_learning_controller": {
+    "file_path": "ai\\self_learning\\self_learning_controller.py",
+    "internal_deps": [
+      "src.core.config",
+      "src.hardware.temperature_optimizer",
+      "src.core.food_layout_optimizer",
+      "src.hardware.hardware_controller"
+    ],
+    "external_deps": [
+      "json",
+      "temperature_optimizer",
+      "threading",
+      "datetime",
+      "performance_monitor",
+      "typing",
+      "time",
+      "feedback_collector",
+      "feedback_analyzer",
+      "layout_optimizer",
+      "pathlib",
+      "adaptive_network",
+      "logging"
+    ]
+  },
+  "ai.self_learning.temperature_optimizer": {
+    "file_path": "ai\\self_learning\\temperature_optimizer.py",
+    "internal_deps": [
+      "src.hardware.hardware_controller"
+    ],
+    "external_deps": [
+      "typing",
+      "adaptive_network",
+      "datetime",
+      "logging"
+    ]
+  },
+  "ai.self_learning.__init__": {
+    "file_path": "ai\\self_learning\\__init__.py",
+    "internal_deps": [],
+    "external_deps": [
+      "self_learning_controller",
+      "adaptive_network",
+      "feedback_collector"
+    ]
+  },
+  "ai.self_learning.models.feedback_model": {
+    "file_path": "ai\\self_learning\\models\\feedback_model.py",
+    "internal_deps": [],
+    "external_deps": [
+      "json",
+      "datetime",
+      "tensorflow",
+      "pathlib",
+      "numpy",
+      "pickle",
+      "logging"
+    ]
+  },
+  "ai.self_learning.models.layout_model": {
+    "file_path": "ai\\self_learning\\models\\layout_model.py",
+    "internal_deps": [],
+    "external_deps": [
+      "json",
+      "tensorflow",
+      "pathlib",
+      "numpy",
+      "pickle",
+      "logging"
+    ]
+  },
+  "ai.self_learning.models.temperature_model": {
+    "file_path": "ai\\self_learning\\models\\temperature_model.py",
+    "internal_deps": [],
+    "external_deps": [
+      "json",
+      "tensorflow",
+      "pathlib",
+      "numpy",
+      "pickle",
+      "logging"
+    ]
+  },
+  "ai.self_learning.models.__init__": {
+    "file_path": "ai\\self_learning\\models\\__init__.py",
+    "internal_deps": [],
+    "external_deps": [
+      "feedback_model",
+      "temperature_model",
+      "layout_model"
+    ]
+  },
+  "ai.training.data_preprocessor": {
+    "file_path": "ai\\training\\data_preprocessor.py",
+    "internal_deps": [],
+    "external_deps": [
+      "pandas",
+      "json",
+      "tensorflow",
+      "cv2",
+      "sklearn",
+      "pathlib",
+      "numpy",
+      "pickle",
+      "logging"
+    ]
+  },
+  "ai.training.example_usage": {
+    "file_path": "ai\\training\\example_usage.py",
+    "internal_deps": [],
+    "external_deps": [
+      "os",
+      "ai_model",
+      "pathlib",
+      "sys",
+      "numpy",
+      "logging"
+    ]
+  },
+  "ai.training.food_classifier_trainer": {
+    "file_path": "ai\\training\\food_classifier_trainer.py",
+    "internal_deps": [],
+    "external_deps": [
+      "json",
+      "matplotlib",
+      "sys",
+      "io",
+      "tensorflow",
+      "pathlib",
+      "numpy",
+      "logging"
+    ]
+  },
+  "ai.training.food_layout_model": {
+    "file_path": "ai\\training\\food_layout_model.py",
+    "internal_deps": [],
+    "external_deps": [
+      "json",
+      "os",
+      "tensorflow",
+      "typing",
+      "numpy",
+      "logging"
+    ]
+  },
+  "ai.training.model_evaluator": {
+    "file_path": "ai\\training\\model_evaluator.py",
+    "internal_deps": [],
+    "external_deps": [
+      "json",
+      "pandas",
+      "seaborn",
+      "matplotlib",
+      "tensorflow",
+      "sklearn",
+      "time",
+      "pathlib",
+      "numpy",
+      "logging"
+    ]
+  },
+  "ai.training.model_trainer": {
+    "file_path": "ai\\training\\model_trainer.py",
+    "internal_deps": [],
+    "external_deps": [
+      "pandas",
+      "json",
+      "tensorflow",
+      "sklearn",
+      "pathlib",
+      "numpy",
+      "pickle",
+      "logging"
+    ]
+  },
+  "ai.training.prepare_training_data": {
+    "file_path": "ai\\training\\prepare_training_data.py",
+    "internal_deps": [],
+    "external_deps": [
+      "json",
+      "pandas",
+      "os",
+      "datetime",
+      "shutil",
+      "pathlib",
+      "cv2",
+      "sklearn",
+      "argparse",
+      "sys",
+      "numpy",
+      "logging"
+    ]
+  },
+  "ai.training.train_food_classifier": {
+    "file_path": "ai\\training\\train_food_classifier.py",
+    "internal_deps": [
+      "src.ai.training.model_evaluator",
+      "src.ai.training.model_trainer",
+      "src.ai.training.data_preprocessor",
+      "src.ai.training.food_classifier_trainer"
+    ],
+    "external_deps": [
+      "json",
+      "os",
+      "pathlib",
+      "argparse",
+      "sys",
+      "logging"
+    ]
+  },
+  "core.async_image_processor": {
+    "file_path": "core\\async_image_processor.py",
+    "internal_deps": [
+      "src.ai.inference.detector",
+      "src.hardware.hardware_controller"
+    ],
+    "external_deps": [
+      "threading",
+      "datetime",
+      "sys",
+      "queue",
+      "time",
+      "pathlib",
+      "asyncio",
+      "logging"
+    ]
+  },
+  "core.config": {
+    "file_path": "core\\config.py",
+    "internal_deps": [],
+    "external_deps": []
+  },
+  "core.firmware_interface": {
+    "file_path": "core\\firmware_interface.py",
+    "internal_deps": [],
+    "external_deps": [
+      "random",
+      "cv2",
+      "RPi"
+    ]
+  },
+  "core.food_layout_optimizer": {
+    "file_path": "core\\food_layout_optimizer.py",
+    "internal_deps": [
+      "src.ai.inference.detector",
+      "src.hardware.hardware_controller"
+    ],
+    "external_deps": [
+      "random",
+      "typing",
+      "itertools",
+      "logging"
+    ]
+  },
+  "core.main": {
+    "file_path": "core\\main.py",
+    "internal_deps": [
+      "src.ai.inference.detector",
+      "src.hardware.hardware_controller"
+    ],
+    "external_deps": [
+      "threading",
+      "json",
+      "os",
+      "datetime",
+      "shutil",
+      "pathlib",
+      "time",
+      "sys",
+      "logging"
+    ]
+  },
+  "hardware.hardware_controller": {
+    "file_path": "hardware\\hardware_controller.py",
+    "internal_deps": [
+      "src.core.config"
+    ],
+    "external_deps": [
+      "random",
+      "temperature_optimizer",
+      "time",
+      "logging"
+    ]
+  },
+  "hardware.temperature_optimizer": {
+    "file_path": "hardware\\temperature_optimizer.py",
+    "internal_deps": [
+      "src.core"
+    ],
+    "external_deps": []
+  }
+}

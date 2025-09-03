@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-08-26T14:29:22.460769",
+  "total_tests": 7,
+  "passed_tests": 7,
+  "failed_tests": 0,
+  "success_rate": 100.0,
+  "test_results": [
+    {
+      "test_name": "硬件控制器",
+      "passed": true,
+      "timestamp": "2025-08-26T14:29:22.396946"
+    },
+    {
+      "test_name": "AI食物检测器",
+      "passed": true,
+      "timestamp": "2025-08-26T14:29:22.405808"
+    },
+    {
+      "test_name": "相机模拟器",
+      "passed": true,
+      "timestamp": "2025-08-26T14:29:22.416250"
+    },
+    {
+      "test_name": "温区管理",
+      "passed": true,
+      "timestamp": "2025-08-26T14:29:22.425466"
+    },
+    {
+      "test_name": "新鲜度数据服务",
+      "passed": true,
+      "timestamp": "2025-08-26T14:29:22.438767"
+    },
+    {
+      "test_name": "智能冰箱系统",
+      "passed": true,
+      "timestamp": "2025-08-26T14:29:22.447768"
+    },
+    {
+      "test_name": "配置参数",
+      "passed": true,
+      "timestamp": "2025-08-26T14:29:22.459772"
+    }
+  ]
+}

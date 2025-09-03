@@ -1,0 +1,53 @@
+{
+  "test_summary": {
+    "total_tests": 7,
+    "passed_tests": 7,
+    "failed_tests": 0,
+    "success_rate": "100.0%"
+  },
+  "test_details": [
+    {
+      "test_name": "基本功能测试",
+      "success": true,
+      "timestamp": "2025-08-26T15:00:41.053770",
+      "details": "处理器正常运行，工作线程: 2"
+    },
+    {
+      "test_name": "门事件检测测试",
+      "success": true,
+      "timestamp": "2025-08-26T15:00:46.260974",
+      "details": "门事件检测正常，最后变化时间: 1756191643.2654057"
+    },
+    {
+      "test_name": "异步处理测试",
+      "success": true,
+      "timestamp": "2025-08-26T15:00:48.776460",
+      "details": "成功处理 5 个任务，耗时 0.51秒"
+    },
+    {
+      "test_name": "队列管理测试",
+      "success": true,
+      "timestamp": "2025-08-26T15:00:54.795657",
+      "details": "队列容量限制正常，成功添加 3 个任务，失败 2 个任务"
+    },
+    {
+      "test_name": "错误处理测试",
+      "success": true,
+      "timestamp": "2025-08-26T15:00:58.802169",
+      "details": "系统在错误处理后保持稳定"
+    },
+    {
+      "test_name": "负载性能测试",
+      "success": true,
+      "timestamp": "2025-08-26T15:01:01.580040",
+      "details": "处理 15/15 个任务，吞吐量: 19.49 任务/秒"
+    },
+    {
+      "test_name": "系统集成测试",
+      "success": true,
+      "timestamp": "2025-08-26T15:01:07.589605",
+      "details": "系统集成正常，工作线程: 2"
+    }
+  ],
+  "generated_at": "2025-08-26T15:01:08.591498"
+}
